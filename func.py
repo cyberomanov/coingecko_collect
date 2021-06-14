@@ -16,7 +16,7 @@ def beautiful_print(text):
         length += 1
     print()
     print(color.Fore.LIGHTMAGENTA_EX + ('{0: ^' + str(length) + '}').format(text))
-    print()
+    print(color.Fore.WHITE)
 
 
 def get_time():
