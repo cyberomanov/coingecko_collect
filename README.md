@@ -18,4 +18,4 @@ linux
 2. via cmd navigate to '_coingecko_collect_' folder.
 3. run '_pip3 install -r requirements.txt_' to install requirements.
 4. setup your accounts via '_data.py_'.
-5. run '_py -3 main.py_' to start the bot.
+5. run '_python3 main.py_' to start the bot.
