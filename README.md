@@ -15,8 +15,10 @@ windows
 linux
 
 1. install python v3.9.1 on server or local machine by following command:
-  $ sudo apt-get install python3.9 python3-pip -y
-  $ pip3 install -r requirements.txt
+
+$ sudo apt-get install python3.9 python3-pip -y
+$ pip3 install -r requirements.txt
+
 2. via cmd navigate to '_coingecko_collect_' folder.
 3. run '_pip3 install -r requirements.txt_' to install requirements.
 4. setup your accounts via '_data.py_'.
