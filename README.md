@@ -1,8 +1,8 @@
 **coingecko_collect**
 
-bot via python for coingecko.
+_bot via python for coingecko._
 
-how to use:
+**how to use:**
 
 1. install python on server or local machine.
 2. via cmd/terminal navigate to coingecko_collect folder.
