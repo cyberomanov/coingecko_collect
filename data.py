@@ -1,5 +1,6 @@
 accounts = {
-    0:{
+       0:
+    {
         "coin_mail": "qwerty@mail.ru",
         "coin_password": "qwerty123",
         "proxy": "login:passwd@ip:port"
