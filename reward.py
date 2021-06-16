@@ -6,7 +6,7 @@ from func import *
 
 
 
-link = 'https://www.coingecko.com/account/rewards/how-to-bitcoin-book?locale=en'
+link_to_buy = 'https://www.coingecko.com/account/rewards/how-to-bitcoin-book?locale=en'
 seconds_to_sleep = 5
 
 # создаём копию аккаунтов и перемешиваем её
@@ -42,7 +42,7 @@ for i in range(len(accounts_list)):
             sleep(seconds_to_sleep)
 
             # покупаем предмет
-            title_result = get_reward(link=link, session=session, header=header)
+            title_result = get_reward(link=link_to_buy, session=session, header=header)
             if title_result != False:
                 # получаем купленный предмет: ссылка или код
                 get_promo(title=title_result, session=session, header=header)
